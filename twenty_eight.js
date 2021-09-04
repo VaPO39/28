@@ -27,7 +27,7 @@ console.log(mmap.size)// выдает размер массива
 mmap.clear()// чистим массив
 console.log(mmap.size)//снова проверяем его размер
  
-//!
+//! entries
 for (let entry of mmap.entries()) {// метод entries позволяет вернуть массив mmap, на каждой итерации получаем отдельный entry который и выводим в консоль лог
     console.log(entry)
     
@@ -67,8 +67,7 @@ console.log(mapObj)
     */
 const users = [
     { name: 'ELena' },
-    {name: 'Kate'
-    },
+    {name: 'Kate'},
     { name: ' Ivan'}
 ]
 const visit = new Map()
